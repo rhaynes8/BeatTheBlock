@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13ED49ED23D02CED00EDC63B /* BeatTheBlockLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED49EC23D02CED00EDC63B /* BeatTheBlockLogo.png */; };
+		13ED49F023D031E900EDC63B /* Beat The Block 76.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED49EE23D031E900EDC63B /* Beat The Block 76.png */; };
+		13ED49F123D031E900EDC63B /* Beat The Block.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED49EF23D031E900EDC63B /* Beat The Block.png */; };
+		13ED49F323D031F000EDC63B /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED49F223D031F000EDC63B /* microphone.png */; };
+		13ED49F723D0344400EDC63B /* BTB_167.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED49F423D0344400EDC63B /* BTB_167.png */; };
+		13ED49F823D0344400EDC63B /* BTB_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED49F523D0344400EDC63B /* BTB_152.png */; };
+		13ED49F923D0344400EDC63B /* BTB_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED49F623D0344400EDC63B /* BTB_1024.png */; };
+		13FE3C0D23D00F8400A5695E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE3C0C23D00F8400A5695E /* AppDelegate.swift */; };
+		13FE3C0F23D00F8400A5695E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE3C0E23D00F8400A5695E /* SceneDelegate.swift */; };
+		13FE3C1423D00F8400A5695E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C1223D00F8400A5695E /* Main.storyboard */; };
+		13FE3C1623D00F8500A5695E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C1523D00F8500A5695E /* Assets.xcassets */; };
+		13FE3C1923D00F8500A5695E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C1723D00F8500A5695E /* LaunchScreen.storyboard */; };
+		13FE3C2723D0104D00A5695E /* AudioKit-iOS in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C2623D0104D00A5695E /* AudioKit-iOS */; };
+		13FE3C2923D0105A00A5695E /* Visual Media in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C2823D0105900A5695E /* Visual Media */; };
+		13FE3C2C23D0106600A5695E /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE3C2A23D0106600A5695E /* ViewControllers.swift */; };
+		13FE3C2D23D0106600A5695E /* FXAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE3C2B23D0106600A5695E /* FXAudioPlayer.swift */; };
+		13FE3C3023D0108D00A5695E /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FE3C2F23D0108D00A5695E /* AudioKit.framework */; };
+		13FE3C3223D0108D00A5695E /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FE3C3123D0108D00A5695E /* AudioKitUI.framework */; };
+		13FE3C3F23D0129A00A5695E /* TomHi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3523D0129900A5695E /* TomHi.wav */; };
+		13FE3C4023D0129A00A5695E /* Snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3623D0129900A5695E /* Snare.wav */; };
+		13FE3C4123D0129A00A5695E /* Bass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3723D0129900A5695E /* Bass.wav */; };
+		13FE3C4223D0129A00A5695E /* TomMid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3823D0129900A5695E /* TomMid.wav */; };
+		13FE3C4323D0129A00A5695E /* Ride.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3923D0129900A5695E /* Ride.wav */; };
+		13FE3C4423D0129A00A5695E /* openHiHat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3A23D0129900A5695E /* openHiHat.wav */; };
+		13FE3C4523D0129A00A5695E /* closedHiHat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3B23D0129A00A5695E /* closedHiHat.wav */; };
+		13FE3C4623D0129A00A5695E /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3C23D0129A00A5695E /* Crash.wav */; };
+		13FE3C4723D0129A00A5695E /* drumloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3D23D0129A00A5695E /* drumloop.wav */; };
+		13FE3C4823D0129A00A5695E /* TomLow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13FE3C3E23D0129A00A5695E /* TomLow.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13ED49EC23D02CED00EDC63B /* BeatTheBlockLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeatTheBlockLogo.png; path = "Visual Media/BeatTheBlockLogo.png"; sourceTree = "<group>"; };
+		13ED49EE23D031E900EDC63B /* Beat The Block 76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beat The Block 76.png"; path = "Visual Media/Beat The Block 76.png"; sourceTree = "<group>"; };
+		13ED49EF23D031E900EDC63B /* Beat The Block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beat The Block.png"; path = "Visual Media/Beat The Block.png"; sourceTree = "<group>"; };
+		13ED49F223D031F000EDC63B /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = microphone.png; path = "Visual Media/microphone.png"; sourceTree = "<group>"; };
+		13ED49F423D0344400EDC63B /* BTB_167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BTB_167.png; path = "Visual Media/BTB_167.png"; sourceTree = "<group>"; };
+		13ED49F523D0344400EDC63B /* BTB_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BTB_152.png; path = "Visual Media/BTB_152.png"; sourceTree = "<group>"; };
+		13ED49F623D0344400EDC63B /* BTB_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BTB_1024.png; path = "Visual Media/BTB_1024.png"; sourceTree = "<group>"; };
+		13FE3C0923D00F8400A5695E /* Beat The Block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beat The Block.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FE3C0C23D00F8400A5695E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13FE3C0E23D00F8400A5695E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13FE3C1323D00F8400A5695E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13FE3C1523D00F8500A5695E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13FE3C1823D00F8500A5695E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13FE3C1A23D00F8500A5695E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FE3C2623D0104D00A5695E /* AudioKit-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "AudioKit-iOS"; sourceTree = "<group>"; };
+		13FE3C2823D0105900A5695E /* Visual Media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Visual Media"; sourceTree = "<group>"; };
+		13FE3C2A23D0106600A5695E /* ViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		13FE3C2B23D0106600A5695E /* FXAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXAudioPlayer.swift; sourceTree = "<group>"; };
+		13FE3C2F23D0108D00A5695E /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = "BeatTheBlock_Y3843340/AudioKit-iOS/AudioKit.framework"; sourceTree = "<group>"; };
+		13FE3C3123D0108D00A5695E /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKitUI.framework; path = "BeatTheBlock_Y3843340/AudioKit-iOS/AudioKitUI.framework"; sourceTree = "<group>"; };
+		13FE3C3523D0129900A5695E /* TomHi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TomHi.wav; sourceTree = "<group>"; };
+		13FE3C3623D0129900A5695E /* Snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Snare.wav; sourceTree = "<group>"; };
+		13FE3C3723D0129900A5695E /* Bass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bass.wav; sourceTree = "<group>"; };
+		13FE3C3823D0129900A5695E /* TomMid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TomMid.wav; sourceTree = "<group>"; };
+		13FE3C3923D0129900A5695E /* Ride.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ride.wav; sourceTree = "<group>"; };
+		13FE3C3A23D0129900A5695E /* openHiHat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = openHiHat.wav; sourceTree = "<group>"; };
+		13FE3C3B23D0129A00A5695E /* closedHiHat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = closedHiHat.wav; sourceTree = "<group>"; };
+		13FE3C3C23D0129A00A5695E /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
+		13FE3C3D23D0129A00A5695E /* drumloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drumloop.wav; sourceTree = "<group>"; };
+		13FE3C3E23D0129A00A5695E /* TomLow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TomLow.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13FE3C0623D00F8400A5695E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FE3C3023D0108D00A5695E /* AudioKit.framework in Frameworks */,
+				13FE3C3223D0108D00A5695E /* AudioKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FE3C0023D00F8400A5695E = {
+			isa = PBXGroup;
+			children = (
+				13FE3C0B23D00F8400A5695E /* BeatTheBlock_Y3843340 */,
+				13FE3C0A23D00F8400A5695E /* Products */,
+				13FE3C2E23D0108D00A5695E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13FE3C0A23D00F8400A5695E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13FE3C0923D00F8400A5695E /* Beat The Block.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13FE3C0B23D00F8400A5695E /* BeatTheBlock_Y3843340 */ = {
+			isa = PBXGroup;
+			children = (
+				13ED49F523D0344400EDC63B /* BTB_152.png */,
+				13ED49F423D0344400EDC63B /* BTB_167.png */,
+				13ED49F623D0344400EDC63B /* BTB_1024.png */,
+				13FE3C4B23D0193400A5695E /* Drum Files */,
+				13FE3C2B23D0106600A5695E /* FXAudioPlayer.swift */,
+				13FE3C2A23D0106600A5695E /* ViewControllers.swift */,
+				13FE3C2823D0105900A5695E /* Visual Media */,
+				13FE3C2623D0104D00A5695E /* AudioKit-iOS */,
+				13FE3C0C23D00F8400A5695E /* AppDelegate.swift */,
+				13FE3C0E23D00F8400A5695E /* SceneDelegate.swift */,
+				13FE3C1223D00F8400A5695E /* Main.storyboard */,
+				13FE3C1523D00F8500A5695E /* Assets.xcassets */,
+				13FE3C1723D00F8500A5695E /* LaunchScreen.storyboard */,
+				13ED49F223D031F000EDC63B /* microphone.png */,
+				13ED49EE23D031E900EDC63B /* Beat The Block 76.png */,
+				13ED49EF23D031E900EDC63B /* Beat The Block.png */,
+				13ED49EC23D02CED00EDC63B /* BeatTheBlockLogo.png */,
+				13FE3C1A23D00F8500A5695E /* Info.plist */,
+			);
+			path = BeatTheBlock_Y3843340;
+			sourceTree = "<group>";
+		};
+		13FE3C2E23D0108D00A5695E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13FE3C2F23D0108D00A5695E /* AudioKit.framework */,
+				13FE3C3123D0108D00A5695E /* AudioKitUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13FE3C4B23D0193400A5695E /* Drum Files */ = {
+			isa = PBXGroup;
+			children = (
+				13FE3C3723D0129900A5695E /* Bass.wav */,
+				13FE3C3B23D0129A00A5695E /* closedHiHat.wav */,
+				13FE3C3C23D0129A00A5695E /* Crash.wav */,
+				13FE3C3D23D0129A00A5695E /* drumloop.wav */,
+				13FE3C3A23D0129900A5695E /* openHiHat.wav */,
+				13FE3C3923D0129900A5695E /* Ride.wav */,
+				13FE3C3623D0129900A5695E /* Snare.wav */,
+				13FE3C3523D0129900A5695E /* TomHi.wav */,
+				13FE3C3E23D0129A00A5695E /* TomLow.wav */,
+				13FE3C3823D0129900A5695E /* TomMid.wav */,
+			);
+			path = "Drum Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13FE3C0823D00F8400A5695E /* BeatTheBlock_Y3843340 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FE3C1D23D00F8500A5695E /* Build configuration list for PBXNativeTarget "BeatTheBlock_Y3843340" */;
+			buildPhases = (
+				13FE3C0523D00F8400A5695E /* Sources */,
+				13FE3C0623D00F8400A5695E /* Frameworks */,
+				13FE3C0723D00F8400A5695E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatTheBlock_Y3843340;
+			productName = BeatTheBlock_Y3843340;
+			productReference = 13FE3C0923D00F8400A5695E /* Beat The Block.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13FE3C0123D00F8400A5695E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Richie Haynes";
+				TargetAttributes = {
+					13FE3C0823D00F8400A5695E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 13FE3C0423D00F8400A5695E /* Build configuration list for PBXProject "BeatTheBlock_Y3843340" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13FE3C0023D00F8400A5695E;
+			productRefGroup = 13FE3C0A23D00F8400A5695E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13FE3C0823D00F8400A5695E /* BeatTheBlock_Y3843340 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13FE3C0723D00F8400A5695E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13ED49ED23D02CED00EDC63B /* BeatTheBlockLogo.png in Resources */,
+				13FE3C4723D0129A00A5695E /* drumloop.wav in Resources */,
+				13FE3C4023D0129A00A5695E /* Snare.wav in Resources */,
+				13FE3C3F23D0129A00A5695E /* TomHi.wav in Resources */,
+				13ED49F323D031F000EDC63B /* microphone.png in Resources */,
+				13ED49F023D031E900EDC63B /* Beat The Block 76.png in Resources */,
+				13FE3C4823D0129A00A5695E /* TomLow.wav in Resources */,
+				13FE3C1923D00F8500A5695E /* LaunchScreen.storyboard in Resources */,
+				13ED49F823D0344400EDC63B /* BTB_152.png in Resources */,
+				13FE3C2723D0104D00A5695E /* AudioKit-iOS in Resources */,
+				13FE3C1623D00F8500A5695E /* Assets.xcassets in Resources */,
+				13FE3C4123D0129A00A5695E /* Bass.wav in Resources */,
+				13FE3C4323D0129A00A5695E /* Ride.wav in Resources */,
+				13FE3C4623D0129A00A5695E /* Crash.wav in Resources */,
+				13FE3C4523D0129A00A5695E /* closedHiHat.wav in Resources */,
+				13ED49F123D031E900EDC63B /* Beat The Block.png in Resources */,
+				13FE3C2923D0105A00A5695E /* Visual Media in Resources */,
+				13ED49F923D0344400EDC63B /* BTB_1024.png in Resources */,
+				13FE3C4223D0129A00A5695E /* TomMid.wav in Resources */,
+				13FE3C1423D00F8400A5695E /* Main.storyboard in Resources */,
+				13FE3C4423D0129A00A5695E /* openHiHat.wav in Resources */,
+				13ED49F723D0344400EDC63B /* BTB_167.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13FE3C0523D00F8400A5695E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FE3C0D23D00F8400A5695E /* AppDelegate.swift in Sources */,
+				13FE3C0F23D00F8400A5695E /* SceneDelegate.swift in Sources */,
+				13FE3C2C23D0106600A5695E /* ViewControllers.swift in Sources */,
+				13FE3C2D23D0106600A5695E /* FXAudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13FE3C1223D00F8400A5695E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13FE3C1323D00F8400A5695E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13FE3C1723D00F8500A5695E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13FE3C1823D00F8500A5695E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13FE3C1B23D00F8500A5695E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13FE3C1C23D00F8500A5695E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13FE3C1E23D00F8500A5695E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LZ39NG4RS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeatTheBlock_Y3843340/AudioKit-iOS",
+				);
+				INFOPLIST_FILE = BeatTheBlock_Y3843340/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "UoY.BeatTheBlock-Y3843340";
+				PRODUCT_NAME = "Beat The Block";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		13FE3C1F23D00F8500A5695E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LZ39NG4RS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeatTheBlock_Y3843340/AudioKit-iOS",
+				);
+				INFOPLIST_FILE = BeatTheBlock_Y3843340/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "UoY.BeatTheBlock-Y3843340";
+				PRODUCT_NAME = "Beat The Block";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FE3C0423D00F8400A5695E /* Build configuration list for PBXProject "BeatTheBlock_Y3843340" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FE3C1B23D00F8500A5695E /* Debug */,
+				13FE3C1C23D00F8500A5695E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FE3C1D23D00F8500A5695E /* Build configuration list for PBXNativeTarget "BeatTheBlock_Y3843340" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FE3C1E23D00F8500A5695E /* Debug */,
+				13FE3C1F23D00F8500A5695E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13FE3C0123D00F8400A5695E /* Project object */;
+}
